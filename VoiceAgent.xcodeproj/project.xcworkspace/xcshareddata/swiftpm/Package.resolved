@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Diomandeee/OpenClawKit",
       "state" : {
-        "revision" : "0f3ae2446a8c341b4c75d13706361ff8c71cfa95",
-        "version" : "1.0.0"
+        "revision" : "c2d25b4877a500bf8b7589b0c9abf34c84fee9eb",
+        "version" : "1.0.2"
       }
     },
     {

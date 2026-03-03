@@ -20,7 +20,7 @@ packages:
     from: "2.0.0"
   OpenClawKit:
     url: https://github.com/Diomandeee/OpenClawKit
-    from: "1.0.0"
+    exactVersion: "1.0.2"
 
 targets:
   VoiceAgent:
@@ -37,8 +37,6 @@ targets:
         product: OpenClawCore
       - package: OpenClawKit
         product: OpenClawSupabase
-      - package: OpenClawKit
-        product: OpenClawTCA
     info:
       path: VoiceAgent/Info.plist
       properties:
@@ -58,6 +56,7 @@ targets:
         NSMicrophoneUsageDescription: "Voice Agent uses your microphone for voice commands to the agent mesh."
         NSSpeechRecognitionUsageDescription: "Voice Agent uses speech recognition for voice commands."
         NSCameraUsageDescription: "Voice Agent uses your camera for visual queries in Direct Voice mode."
+        UILaunchScreen: {}
         ITSAppUsesNonExemptEncryption: false
     settings:
       base:

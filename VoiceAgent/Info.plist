@@ -35,6 +35,8 @@
 	<string>Voice Agent uses your microphone for voice commands to the agent mesh.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>Voice Agent uses speech recognition for voice commands.</string>
+	<key>UILaunchScreen</key>
+	<dict/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
