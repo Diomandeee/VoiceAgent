@@ -7,10 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5745118D50543690B529227C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5678637A2B74465FB8E73927 /* ContentView.swift */; };
+		02B2833D1AEDE4EC6EC23778 /* VoiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DE1E96E7DFA95C346F531B /* VoiceRouter.swift */; };
+		0F60B3BEF6F50BC44B15ECE3 /* VoiceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1154DD743CE34289C0C6DA /* VoiceService.swift */; };
+		1F78645C5661B2CBA39F70CB /* GeminiObserverFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4626F7669B01A864F4D65AB1 /* GeminiObserverFeature.swift */; };
+		3C72F63D2AFE10B92C7A8C39 /* OpenClawSupabase in Frameworks */ = {isa = PBXBuildFile; productRef = 00E2B2A868C14A9D99B1512E /* OpenClawSupabase */; };
+		647998895458744D839119BC /* OpenClawTCA in Frameworks */ = {isa = PBXBuildFile; productRef = E6BEE06C8B2766A3445B214A /* OpenClawTCA */; };
+		6622AF3C79CFB9372F4F3962 /* ConversationHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4265DC02ED3BD70162C52D /* ConversationHistoryManager.swift */; };
 		6B9A0978877A960339A8ADDD /* VoiceAgentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A91B8F4EA89DE92528D3E /* VoiceAgentTests.swift */; };
+		71DAADFBE8AE7E3BC49B1AB6 /* VoiceThreadBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBEABA0159E9E3D9DCD88D7 /* VoiceThreadBrowser.swift */; };
+		730F3A296F3EFFCF4F6A4E20 /* DirectVoiceFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D16A0E71F2345DE8003EDC /* DirectVoiceFeature.swift */; };
+		81030F0E5810AA3982C8F7E0 /* VoiceSettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A843C01811E0887C2C008A /* VoiceSettingsSheet.swift */; };
+		8DA075A48FE9EC7520DE19C5 /* DirectVoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F0F1996720A2A8F62FFB71 /* DirectVoiceView.swift */; };
+		9D753FD2847FD86769DE46F3 /* GeminiLiveClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801B1AC79F435BA75A7F5F75 /* GeminiLiveClient.swift */; };
+		A6DE75C685ADDAD8423F2262 /* FilterChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314BFB4620618BC2E5682CDC /* FilterChip.swift */; };
+		A8A28E395145034EBEB0E3C7 /* OpenClawCore in Frameworks */ = {isa = PBXBuildFile; productRef = C4144A91E6F03630F243B861 /* OpenClawCore */; };
 		AA78C44F3C5C80B7B2708CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FFDAC5340C285F052A2F63 /* Assets.xcassets */; };
+		B119EE66F2AB631C8F4B5339 /* ThreadCategory+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9BE9EB73CD368822E0819B /* ThreadCategory+Extensions.swift */; };
+		B2A2A3212FB0181D51F2B549 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F9EC0DF16BB379F73E0A20EC /* ComposableArchitecture */; };
+		B5F4E1F999CCC36FFCEE2417 /* TTSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511B3A2DC2971B73FFFBDC69 /* TTSService.swift */; };
+		B83D56424FBF00776A58B99F /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99E37652D62E0CDB711D6C /* Color+Hex.swift */; };
 		C4D4C4BB0BE6C864A059C584 /* VoiceAgentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00C39D7BFB3AF22A0FC2EB /* VoiceAgentApp.swift */; };
+		D7ECD3989A83230761197053 /* SpeakerIDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BEE7E2335B6642D3BFC4F /* SpeakerIDService.swift */; };
+		E6B6DE44DAECEFD3F1A68FC1 /* VoiceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FDECAD24A9B4A94CC5AFEF /* VoiceModels.swift */; };
+		E885C6011D3117CBFC2EDE61 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = DFB0E4869368114D94F3DA94 /* Supabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,13 +45,42 @@
 /* Begin PBXFileReference section */
 		1C3A91B8F4EA89DE92528D3E /* VoiceAgentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAgentTests.swift; sourceTree = "<group>"; };
 		25CE64A482F15B87972C520A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		27DE1E96E7DFA95C346F531B /* VoiceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRouter.swift; sourceTree = "<group>"; };
+		30A843C01811E0887C2C008A /* VoiceSettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceSettingsSheet.swift; sourceTree = "<group>"; };
+		314BFB4620618BC2E5682CDC /* FilterChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChip.swift; sourceTree = "<group>"; };
 		317804004B090FAF26E52FE0 /* VoiceAgentTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = VoiceAgentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		373BEE7E2335B6642D3BFC4F /* SpeakerIDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerIDService.swift; sourceTree = "<group>"; };
+		3E99E37652D62E0CDB711D6C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		3F4265DC02ED3BD70162C52D /* ConversationHistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationHistoryManager.swift; sourceTree = "<group>"; };
+		40FDECAD24A9B4A94CC5AFEF /* VoiceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceModels.swift; sourceTree = "<group>"; };
+		4626F7669B01A864F4D65AB1 /* GeminiObserverFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiObserverFeature.swift; sourceTree = "<group>"; };
 		4E00C39D7BFB3AF22A0FC2EB /* VoiceAgentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAgentApp.swift; sourceTree = "<group>"; };
-		5678637A2B74465FB8E73927 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		511B3A2DC2971B73FFFBDC69 /* TTSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSService.swift; sourceTree = "<group>"; };
+		55D16A0E71F2345DE8003EDC /* DirectVoiceFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectVoiceFeature.swift; sourceTree = "<group>"; };
+		5DBEABA0159E9E3D9DCD88D7 /* VoiceThreadBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceThreadBrowser.swift; sourceTree = "<group>"; };
+		5E9BE9EB73CD368822E0819B /* ThreadCategory+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ThreadCategory+Extensions.swift"; sourceTree = "<group>"; };
+		801B1AC79F435BA75A7F5F75 /* GeminiLiveClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiLiveClient.swift; sourceTree = "<group>"; };
 		96FFDAC5340C285F052A2F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99F0F1996720A2A8F62FFB71 /* DirectVoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectVoiceView.swift; sourceTree = "<group>"; };
+		AF1154DD743CE34289C0C6DA /* VoiceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceService.swift; sourceTree = "<group>"; };
 		C535D758FFEAF1BB9ED5FDE6 /* VoiceAgent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VoiceAgent.entitlements; sourceTree = "<group>"; };
 		DA874247CE0042458BC4B95E /* VoiceAgent.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = VoiceAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8FD6CECBBE442299B670ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A2A3212FB0181D51F2B549 /* ComposableArchitecture in Frameworks */,
+				E885C6011D3117CBFC2EDE61 /* Supabase in Frameworks */,
+				A8A28E395145034EBEB0E3C7 /* OpenClawCore in Frameworks */,
+				3C72F63D2AFE10B92C7A8C39 /* OpenClawSupabase in Frameworks */,
+				647998895458744D839119BC /* OpenClawTCA in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3DC98738A6C85AEECB3C6D77 = {
@@ -57,10 +105,24 @@
 			isa = PBXGroup;
 			children = (
 				96FFDAC5340C285F052A2F63 /* Assets.xcassets */,
-				5678637A2B74465FB8E73927 /* ContentView.swift */,
+				3E99E37652D62E0CDB711D6C /* Color+Hex.swift */,
+				3F4265DC02ED3BD70162C52D /* ConversationHistoryManager.swift */,
+				55D16A0E71F2345DE8003EDC /* DirectVoiceFeature.swift */,
+				99F0F1996720A2A8F62FFB71 /* DirectVoiceView.swift */,
+				314BFB4620618BC2E5682CDC /* FilterChip.swift */,
+				801B1AC79F435BA75A7F5F75 /* GeminiLiveClient.swift */,
+				4626F7669B01A864F4D65AB1 /* GeminiObserverFeature.swift */,
 				25CE64A482F15B87972C520A /* Info.plist */,
+				373BEE7E2335B6642D3BFC4F /* SpeakerIDService.swift */,
+				5E9BE9EB73CD368822E0819B /* ThreadCategory+Extensions.swift */,
+				511B3A2DC2971B73FFFBDC69 /* TTSService.swift */,
 				C535D758FFEAF1BB9ED5FDE6 /* VoiceAgent.entitlements */,
 				4E00C39D7BFB3AF22A0FC2EB /* VoiceAgentApp.swift */,
+				40FDECAD24A9B4A94CC5AFEF /* VoiceModels.swift */,
+				27DE1E96E7DFA95C346F531B /* VoiceRouter.swift */,
+				AF1154DD743CE34289C0C6DA /* VoiceService.swift */,
+				30A843C01811E0887C2C008A /* VoiceSettingsSheet.swift */,
+				5DBEABA0159E9E3D9DCD88D7 /* VoiceThreadBrowser.swift */,
 			);
 			path = VoiceAgent;
 			sourceTree = "<group>";
@@ -82,6 +144,7 @@
 			buildPhases = (
 				D73557B38906FB074486BD0B /* Sources */,
 				DB54906C9518A1C958CE1F3F /* Resources */,
+				F8FD6CECBBE442299B670ECA /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -89,6 +152,11 @@
 			);
 			name = VoiceAgent;
 			packageProductDependencies = (
+				F9EC0DF16BB379F73E0A20EC /* ComposableArchitecture */,
+				DFB0E4869368114D94F3DA94 /* Supabase */,
+				C4144A91E6F03630F243B861 /* OpenClawCore */,
+				00E2B2A868C14A9D99B1512E /* OpenClawSupabase */,
+				E6BEE06C8B2766A3445B214A /* OpenClawTCA */,
 			);
 			productName = VoiceAgent;
 			productReference = DA874247CE0042458BC4B95E /* VoiceAgent.app */;
@@ -137,6 +205,11 @@
 			);
 			mainGroup = 3DC98738A6C85AEECB3C6D77;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7E5AF3A394532A644245A668 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				95298D96E41DCB68E6F91D86 /* XCRemoteSwiftPackageReference "OpenClawKit" */,
+				14FC75C01F1AEEE3FD89AE9B /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
@@ -171,8 +244,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5745118D50543690B529227C /* ContentView.swift in Sources */,
+				B83D56424FBF00776A58B99F /* Color+Hex.swift in Sources */,
+				6622AF3C79CFB9372F4F3962 /* ConversationHistoryManager.swift in Sources */,
+				730F3A296F3EFFCF4F6A4E20 /* DirectVoiceFeature.swift in Sources */,
+				8DA075A48FE9EC7520DE19C5 /* DirectVoiceView.swift in Sources */,
+				A6DE75C685ADDAD8423F2262 /* FilterChip.swift in Sources */,
+				9D753FD2847FD86769DE46F3 /* GeminiLiveClient.swift in Sources */,
+				1F78645C5661B2CBA39F70CB /* GeminiObserverFeature.swift in Sources */,
+				D7ECD3989A83230761197053 /* SpeakerIDService.swift in Sources */,
+				B5F4E1F999CCC36FFCEE2417 /* TTSService.swift in Sources */,
+				B119EE66F2AB631C8F4B5339 /* ThreadCategory+Extensions.swift in Sources */,
 				C4D4C4BB0BE6C864A059C584 /* VoiceAgentApp.swift in Sources */,
+				E6B6DE44DAECEFD3F1A68FC1 /* VoiceModels.swift in Sources */,
+				02B2833D1AEDE4EC6EC23778 /* VoiceRouter.swift in Sources */,
+				0F60B3BEF6F50BC44B15ECE3 /* VoiceService.swift in Sources */,
+				81030F0E5810AA3982C8F7E0 /* VoiceSettingsSheet.swift in Sources */,
+				71DAADFBE8AE7E3BC49B1AB6 /* VoiceThreadBrowser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +382,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_STRICT_CONCURRENCY = complete;
-				SWIFT_VERSION = 6;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -360,8 +446,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_STRICT_CONCURRENCY = complete;
-				SWIFT_VERSION = 6;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -413,6 +498,61 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14FC75C01F1AEEE3FD89AE9B /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		7E5AF3A394532A644245A668 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.0;
+			};
+		};
+		95298D96E41DCB68E6F91D86 /* XCRemoteSwiftPackageReference "OpenClawKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Diomandeee/OpenClawKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		00E2B2A868C14A9D99B1512E /* OpenClawSupabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95298D96E41DCB68E6F91D86 /* XCRemoteSwiftPackageReference "OpenClawKit" */;
+			productName = OpenClawSupabase;
+		};
+		C4144A91E6F03630F243B861 /* OpenClawCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95298D96E41DCB68E6F91D86 /* XCRemoteSwiftPackageReference "OpenClawKit" */;
+			productName = OpenClawCore;
+		};
+		DFB0E4869368114D94F3DA94 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14FC75C01F1AEEE3FD89AE9B /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		E6BEE06C8B2766A3445B214A /* OpenClawTCA */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95298D96E41DCB68E6F91D86 /* XCRemoteSwiftPackageReference "OpenClawKit" */;
+			productName = OpenClawTCA;
+		};
+		F9EC0DF16BB379F73E0A20EC /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E5AF3A394532A644245A668 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7F12F4B8EE9106EBD74D244F /* Project object */;
 }

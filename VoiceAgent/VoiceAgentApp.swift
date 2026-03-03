@@ -1,10 +1,20 @@
 import SwiftUI
+import ComposableArchitecture
+import OpenClawCore
 
 @main
 struct VoiceAgentApp: App {
+    init() {
+        KeychainHelper.service = "com.openclaw.voiceagent"
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DirectVoiceView(
+                store: Store(initialState: DirectVoiceFeature.State()) {
+                    DirectVoiceFeature()
+                }
+            )
         }
     }
 }
